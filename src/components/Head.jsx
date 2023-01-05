@@ -34,7 +34,7 @@ const Head = () => {
           <input
             type="text"
             className="form-control"
-            placeholder="https://github.com/MuhammadAkbar007"
+            placeholder="https://github.com/MuhammadAkbar007/link-shortener-react"
             value={longUrl}
             onChange={(e) => setLongUrl(e.target.value)}
             onKeyPress={(e) => {
